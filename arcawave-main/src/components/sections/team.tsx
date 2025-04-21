@@ -26,46 +26,6 @@ const teamMembers = [
   }
 ]
 
-const advisors = [
-  {
-    name: "정현우",
-    role: "Art Advisor",
-    bio: "갤러리 현대 전 대표. 아트바젤 아시아 자문위원.",
-    image: "/images/team/advisor-1.jpg"
-  },
-  {
-    name: "양지영",
-    role: "Tech Advisor",
-    bio: "메타 XR 연구소장. AR/VR 분야 특허 15건 보유.",
-    image: "/images/team/advisor-2.jpg"
-  },
-  {
-    name: "송민호",
-    role: "Investment Advisor",
-    bio: "벤처캐피탈 파트너. 아트테크 분야 투자 전문가.",
-    image: "/images/team/advisor-3.jpg"
-  }
-]
-
-const achievements = [
-  {
-    title: "대한민국 모바일 어워드",
-    description: "문화예술 분야 최우수상 (2024)"
-  },
-  {
-    title: "실감형 콘텐츠 대상",
-    description: "과학기술정보통신부 장관상 (2023)"
-  },
-  {
-    title: "CES 혁신상",
-    description: "AR/VR 카테고리 (2023)"
-  },
-  {
-    title: "스타트업 그라인드",
-    description: "글로벌 Top 50 선정 (2023)"
-  }
-]
-
 const TeamSection = () => {
   return (
     <section className="py-20 bg-white">
@@ -149,72 +109,6 @@ const TeamSection = () => {
               </div>
             </motion.div>
           ))}
-        </div>
-        
-        {/* 자문단 섹션 */}
-        <div className="mb-20">
-          <motion.h3
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="text-2xl font-bold text-center mb-10"
-          >
-            자문단
-          </motion.h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {advisors.map((advisor, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-white rounded-lg overflow-hidden shadow-md p-6 flex items-center space-x-4"
-              >
-                <div className="w-16 h-16 rounded-full overflow-hidden bg-slate-200 flex-shrink-0">
-                  <img
-                    src={advisor.image}
-                    alt={advisor.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="text-lg font-bold">{advisor.name}</h4>
-                  <p className="text-indigo-600 text-sm mb-1">{advisor.role}</p>
-                  <p className="text-slate-600 text-sm">{advisor.bio}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-        
-        {/* 주요 성과 섹션 */}
-        <div>
-          <motion.h3
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="text-2xl font-bold text-center mb-10"
-          >
-            주요 성과
-          </motion.h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {achievements.map((achievement, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-slate-50 p-6 rounded-lg border-l-4 border-indigo-500"
-              >
-                <h4 className="font-bold mb-2">{achievement.title}</h4>
-                <p className="text-slate-600 text-sm">{achievement.description}</p>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
