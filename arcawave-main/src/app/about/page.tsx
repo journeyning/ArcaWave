@@ -69,12 +69,12 @@ export default function AboutPage() {
               <div className="flex items-center mb-4">
                 <div className="bg-blue-500 h-4 w-4 rounded-full absolute left-1/2 transform -translate-x-1/2 z-10"></div>
                 <div className="w-1/2 pr-8 text-right">
-                  <span className="font-bold text-blue-500">2023년 6월</span>
+                  <span className="font-bold text-blue-500">2025년 4월</span>
                 </div>
                 <div className="w-1/2 pl-8">
                   <h3 className="font-bold text-lg">ArcaWave 설립</h3>
                   <p className="text-slate-600">
-                    두지언 CEO와 핵심 창업 멤버들이 모여 ArcaWave 설립
+                    ArcaWave 설립
                   </p>
                 </div>
               </div>
@@ -86,11 +86,11 @@ export default function AboutPage() {
                 <div className="w-1/2 pr-8 text-right">
                   <h3 className="font-bold text-lg">시드 투자 유치</h3>
                   <p className="text-slate-600">
-                    초기 투자자들로부터 5억 원 규모의 시드 투자 유치 성공
+                    초기 투자자들로부터 시드 투자 유치
                   </p>
                 </div>
                 <div className="w-1/2 pl-8">
-                  <span className="font-bold text-blue-500">2023년 9월</span>
+                  <span className="font-bold text-blue-500">2025년 7월</span>
                 </div>
               </div>
             </div>
@@ -99,12 +99,12 @@ export default function AboutPage() {
               <div className="flex items-center mb-4">
                 <div className="bg-blue-500 h-4 w-4 rounded-full absolute left-1/2 transform -translate-x-1/2 z-10"></div>
                 <div className="w-1/2 pr-8 text-right">
-                  <span className="font-bold text-blue-500">2024년 1월</span>
+                  <span className="font-bold text-blue-500">2025년 8월</span>
                 </div>
                 <div className="w-1/2 pl-8">
                   <h3 className="font-bold text-lg">베타 서비스 출시</h3>
                   <p className="text-slate-600">
-                    초기 작가 100명과 함께 베타 서비스 출시 및 테스트
+                    베타 서비스 출시 및 테스트
                   </p>
                 </div>
               </div>
@@ -116,11 +116,11 @@ export default function AboutPage() {
                 <div className="w-1/2 pr-8 text-right">
                   <h3 className="font-bold text-lg">서비스 정식 출시</h3>
                   <p className="text-slate-600">
-                    ArcaWave 앱 정식 출시 및 국내 미술 전시회 참가
+                    Fluxrs 앱 정식 출시
                   </p>
                 </div>
                 <div className="w-1/2 pl-8">
-                  <span className="font-bold text-blue-500">2024년 5월</span>
+                  <span className="font-bold text-blue-500">2025년 9월</span>
                 </div>
               </div>
             </div>
@@ -129,12 +129,12 @@ export default function AboutPage() {
               <div className="flex items-center mb-4">
                 <div className="bg-blue-500 h-4 w-4 rounded-full absolute left-1/2 transform -translate-x-1/2 z-10"></div>
                 <div className="w-1/2 pr-8 text-right">
-                  <span className="font-bold text-blue-500">2025년 2월</span>
+                  <span className="font-bold text-blue-500">2026년 10월</span>
                 </div>
                 <div className="w-1/2 pl-8">
                   <h3 className="font-bold text-lg">시리즈 A 투자 유치</h3>
                   <p className="text-slate-600">
-                    30억 원 규모의 시리즈 A 투자 유치 및 아시아 시장 확장 준비
+                    시리즈 A 투자 유치 및 아시아 시장 확장 준비
                   </p>
                 </div>
               </div>
@@ -159,9 +159,9 @@ export default function AboutPage() {
                 <p className="text-slate-400">CEO 사진</p>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">두지언</h3>
+                <h3 className="text-xl font-bold mb-1">Jieon Du</h3>
                 <p className="text-blue-600 text-sm mb-3">CEO / Founder</p>
-                <p className="text-slate-600 text-sm">AR/VR 기술 전문가. 전 Google AR 팀 리드. KAIST 전산학 박사.</p>
+                <p className="text-slate-600 text-sm">KAIST 메타버스대학원 박사과정.</p>
               </div>
             </div>
             
