@@ -109,7 +109,7 @@ const ContactForm = () => {
                     </svg>
                     <h4 className="font-medium">이메일</h4>
                   </div>
-                  <p className="text-slate-600 pl-8">kheritagetour@gmial.com</p>
+                  <p className="text-slate-600 pl-8">kheritagetour@gmail.com</p>
                 </div>
                 
                 <div>
