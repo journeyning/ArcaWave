@@ -7,7 +7,7 @@ const teamMembers = [
   {
     name: "두지언",
     role: "CEO / Founder",
-    bio: "AR/VR 기술 전문가. 전 Google AR 팀 리드. KAIST 전산학 박사.",
+    bio: "KAIST 메타버스대학원 박사과정. KAIST 문화기술대학원 석사. 홍익대 회화, 예술학 학사.",
     image: "/images/team/placeholder-1.jpg",
     social: {
       linkedin: "https://linkedin.com/",
@@ -15,33 +15,13 @@ const teamMembers = [
     }
   },
   {
-    name: "김예슬",
+    name: "이정민",
     role: "CTO",
-    bio: "AI 연구 전문가. 전 네이버 랩스 AI 연구원. 서울대 컴퓨터공학 박사.",
+    bio: "전 AI 연구원. KAIST 문화기술대학원 석사.",
     image: "/images/team/placeholder-2.jpg",
     social: {
       linkedin: "https://linkedin.com/",
       github: "https://github.com/"
-    }
-  },
-  {
-    name: "박창현",
-    role: "Chief Curator",
-    bio: "현대미술 전문 큐레이터. 전 국립현대미술관 큐레이터. 홍익대 미술사학 석사.",
-    image: "/images/team/placeholder-3.jpg",
-    social: {
-      linkedin: "https://linkedin.com/",
-      instagram: "https://instagram.com/"
-    }
-  },
-  {
-    name: "이지훈",
-    role: "CMO",
-    bio: "디지털 마케팅 전문가. 전 카카오 마케팅 리드. 연세대 경영학 석사.",
-    image: "/images/team/placeholder-4.jpg",
-    social: {
-      linkedin: "https://linkedin.com/",
-      twitter: "https://twitter.com/"
     }
   }
 ]
