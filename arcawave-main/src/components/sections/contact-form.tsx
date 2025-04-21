@@ -121,8 +121,8 @@ const ContactForm = () => {
                     <h4 className="font-medium">주소</h4>
                   </div>
                   <p className="text-slate-600 pl-8">
-                    서울특별시 강남구 테헤란로 123<br />
-                    아트테크 빌딩 8층
+                    대전광역시 유성구 대학로291 123<br />
+                    W5-2 405호
                   </p>
                 </div>
               </div>
