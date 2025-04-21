@@ -99,7 +99,7 @@ const ContactForm = () => {
                     </svg>
                     <h4 className="font-medium">전화번호</h4>
                   </div>
-                  <p className="text-slate-600 pl-8">02-123-4567</p>
+                  <p className="text-slate-600 pl-8">010-2353-1616</p>
                 </div>
                 
                 <div>
@@ -109,7 +109,7 @@ const ContactForm = () => {
                     </svg>
                     <h4 className="font-medium">이메일</h4>
                   </div>
-                  <p className="text-slate-600 pl-8">contact@arcawave.com</p>
+                  <p className="text-slate-600 pl-8">kheritagetour@gmial.com</p>
                 </div>
                 
                 <div>
